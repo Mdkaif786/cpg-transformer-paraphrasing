@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (too large for GitHub)
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Data files
+*.csv
+*.json
+*.pkl
+*.pickle
+
+# Results and outputs
+results/
+outputs/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
